@@ -1,0 +1,56 @@
+/*Importar fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+
+@media screen and (min-width:842px) {
+    header{
+        flex-direction: row !important;
+        height: 15vh;
+    }
+}
+
+@media screen and (max-width:842px) {
+    header{
+        height: 25vh;
+    }
+    header > div,header > nav{
+        margin-block: 1%;
+    }
+}
+
+header{
+    padding: 3%;
+    font-family: "Anta", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background:linear-gradient(to left,rgb(55, 105, 255),rgb(0, 0, 61));
+    color: white;
+}
+
+header > nav > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header > nav > ul > li{
+    display: flex;
+    margin-inline: 4%;
+
+}
+
+header > nav > ul > li > a{
+    transition: 0.7s;
+    text-wrap: nowrap;
+}
+
+header > nav > ul > li > a:hover{
+    border-top: 2px solid gray;
+    cursor: pointer;
+}
+
