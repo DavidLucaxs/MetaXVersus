@@ -1,0 +1,39 @@
+@media screen and (min-width:842px) {
+    #main-container{
+        flex-direction: row !important;
+        height: 85vh;
+    }
+
+    #content{
+        height: calc(85vh - 20%);
+    }
+}
+
+@media screen and (max-width:842px) {
+    #main-container{
+        height: 75vh;
+    }
+
+    #content{
+        height: calc(75vh - 10%);
+    }
+}
+
+
+
+
+#main-container{
+    background: linear-gradient(to left,rgb(0, 38, 108),rgb(92, 147, 249));
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content{
+    background: linear-gradient(to right,rgb(0, 38, 108),rgb(2, 63, 175));
+    width: 90%;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 20px;
+    transition: 5s linear-gradient;
+}

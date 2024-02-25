@@ -14,7 +14,7 @@
         height: 25vh;
     }
     header > div,header > nav{
-        margin-block: 1%;
+        margin-block: 1% !important;
     }
 }
 
