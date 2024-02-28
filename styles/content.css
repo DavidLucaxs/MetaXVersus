@@ -1,3 +1,5 @@
+
+
 #game-content{
     display: flex;
     align-items: center;
@@ -7,15 +9,24 @@
     border: 1px solid black;
     left: 0%;
     flex-wrap: wrap;
+    background:linear-gradient(to left,rgb(55, 105, 255),rgb(0, 0, 61));
 }
 
 .character{
     padding: 3%;
     border: 1px solid black;
     margin-block: 1.5%;
-    margin-inline: 2%;
+    margin-inline: 10%;
     border-radius: 10px;
-    max-width: 50vw;
+    max-width: 80vw;
+    background-color: white;
+    
+}
+
+.character:hover{
+    box-shadow: 3px 3px 20px black;
+    border: 2px solid green;
+    transform: translate(-0.5%,-0.5%);
 }
 
 .character > div{
@@ -26,6 +37,5 @@
 }
 
 .character > div > div{
-    border: 1px solid red;
     padding: 1%;
 }

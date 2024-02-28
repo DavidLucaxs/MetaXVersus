@@ -4,26 +4,25 @@
         flex-direction: row !important;
         height: 50vh;
     }
-
-    #news{
-        height: calc(100vh - 20%);
-    }
 }
 
 @media screen and (max-width:842px) {
     #news-container{
         height: 50vh;
     }
-
-    #news{
-        height: calc(50vh - 10%);
-    }
 }
 
 #news-container{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    
+    
+}
+
+#news > h2,#news > h1{
+    text-align: center;
 }
 
 #news > div{
@@ -31,9 +30,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 30vh;
+    margin-inline: 3%;
 }
 
-#news > h2{
-    text-align: center;
+#news > div > img{
+    width: 200px;
+    height: 200px
 }
+
+
+
+
+
 
