@@ -1,9 +1,16 @@
+/*Importar fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+/*Importar Estilos*/
 @import url('./header.css');
 @import url('./center.css');
+@import url('./news.css');
+@import url('./content.css');
+@import url('./footer.css');
 
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
 }
 

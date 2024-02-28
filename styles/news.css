@@ -1,0 +1,39 @@
+
+@media screen and (min-width:842px) {
+    #news-container{
+        flex-direction: row !important;
+        height: 50vh;
+    }
+
+    #news{
+        height: calc(100vh - 20%);
+    }
+}
+
+@media screen and (max-width:842px) {
+    #news-container{
+        height: 50vh;
+    }
+
+    #news{
+        height: calc(50vh - 10%);
+    }
+}
+
+#news-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#news > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#news > h2{
+    text-align: center;
+}
+
