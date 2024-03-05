@@ -33,7 +33,7 @@
 #content{
     background-color: rgb(213, 223, 255);
     width: 90%;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px rgb(15, 0, 75);
     border-radius: 10px;
     transition: 5s linear-gradient;
     backdrop-filter: blur(20px);
