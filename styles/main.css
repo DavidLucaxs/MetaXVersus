@@ -4,13 +4,14 @@
 @import url('./header.css');
 @import url('./center.css');
 @import url('./news.css');
-@import url('./content.css');
 @import url('./footer.css');
+@import url("./carrossel.css");
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Anta", sans-serif;
+    overflow-x: hidden;
 }
 
