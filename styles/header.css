@@ -27,18 +27,21 @@ header{
     justify-content: space-around;
     background:linear-gradient(to left,rgb(55, 105, 255),rgb(0, 0, 61));
     color: white;
+    
 }
 
 header > nav > ul{
     display: flex;
     flex-direction: row;
     width: 30vw;
+    
 }
 
 header > nav > ul > li{
     display: flex;
     margin-inline: 4%;
     position: relative;
+    
     
 
 }
@@ -47,6 +50,7 @@ header > nav > ul > li > a{
     color: rgb(157, 173, 255);
     text-wrap: nowrap;
     transition: transform 0.5s,color 0.5s;
+   
 }
 
 header > nav > ul > li > a:hover{
